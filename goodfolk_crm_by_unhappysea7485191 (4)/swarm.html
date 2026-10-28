@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#060913" />
+  <title>Swarm Engine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="swarm-engine-app-491.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><div class="brand-mark">✳</div><div><div class="brand-title">SWARM ENGINE <span>v4.8 PROD</span></div><div class="brand-sub">Autonomous video production pipeline</div></div></div>
+    <div class="top-actions"><div class="live"><i></i> 5 BOTS ACTIVE</div><button class="button muted" id="export-config">↓ <span>Export Batch Code</span></button></div>
+  </header>
+  <main class="workspace">
+    <aside class="controls">
+      <section class="panel control-panel">
+        <h2>⌘ &nbsp;Batch Swarm Controller</h2>
+        <label>Target Niche & Database Profile<select id="niche-select"></select></label>
+        <div class="field-grid"><label>Batch Size<input value="5 videos" readonly /></label><label>Target Aspect Ratio<select id="aspect"><option>9:16</option><option>16:9</option><option>1:1</option></select></label></div>
+        <label>Video Duration Constraint <strong id="duration-label">30–60 sec</strong><input id="duration" type="range" min="30" max="60" value="45" /></label>
+        <label>Narrator voice<select id="voice-id"><option value="en-male">English · Male voice</option><option value="en-female">English · Female voice</option></select></label>
+        <div class="ratio-control"><label>Human Avatar Mix <strong id="avatar-ratio-label">40%</strong><input id="avatar-ratio" type="range" min="0" max="100" step="20" value="40" /></label><label>B-Roll Showcase Mix <strong id="broll-ratio-label">40%</strong><input id="broll-ratio" type="range" min="0" max="100" step="20" value="40" /></label></div>
+        <label>Background soundtrack<select id="soundtrack"><option value="none">None · voice only</option><option value="uploaded">Use uploaded CRM audio asset</option></select></label>
+        <label>Soundtrack volume <strong id="music-volume-label">14%</strong><input id="music-volume" type="range" min="0" max="35" step="1" value="14" /></label>
+        <label>Speech rate <strong id="speech-rate-label">1.0×</strong><input id="speech-rate" type="range" min="0.8" max="1.2" step="0.1" value="1" /></label>
+        <button class="button primary" id="run-batch">⚡ &nbsp;Execute Swarm Batch <span>(5 Videos)</span></button>
+      </section>
+      <section class="panel">
+        <div class="section-head"><h2>▤ &nbsp;Niche Knowledge Base</h2><button class="text-button" id="save-niche">Save Entry</button></div>
+        <label>Brand / Product Title<input id="brand" /></label>
+        <label>Value Proposition<textarea id="value-prop" rows="2"></textarea></label>
+        <label>Key Pain Points<input id="pain-points" /></label>
+      </section>
+      <section class="panel crm-intelligence">
+        <div class="section-head"><h2>CRM Business Intelligence</h2><span id="crm-link-status" class="link-status">Connecting…</span></div>
+        <div id="crm-business-summary" class="business-summary">Waiting for the CRM business profile…</div>
+        <details><summary>Workflow & bot instructions</summary><pre id="crm-workflow-context">CRM workflow instructions will appear here.</pre></details>
+        <details><summary>Open research references</summary><div id="research-references" class="references">References will be collected when a batch starts.</div></details>
+        <label>Upload business assets<input id="business-assets" type="file" accept="image/*,video/*,audio/*,.pdf" multiple /></label>
+        <p class="asset-help">Add logos, product photos, clips, audio, or reference documents for this business.</p>
+        <div id="asset-list" class="asset-list"></div>
+      </section>
+      <section class="panel prompt-panel"><div class="section-head"><h2>WebSim Master Prompt</h2><button class="text-button" id="copy-master">▣ Copy</button></div><pre id="master-prompt"></pre></section>
+    </aside>
+    <section class="results">
+      <section class="panel pipeline">
+        <h2>⌘ &nbsp;Autonomous Bot Swarm Architecture</h2>
+        <div class="bot-grid" id="bot-grid"></div>
+        <div class="progress-meta"><span id="progress-label">Swarm ready. Execute a batch to begin.</span><span id="progress-value">0%</span></div><div class="progress-track"><div id="progress-bar"></div></div>
+      </section>
+      <div class="matrix-head"><h2>▣ &nbsp;Generated Video Matrix <span>(5 distinct formats · voiced)</span></h2><span>30–60 sec each</span></div>
+      <div id="video-cards" class="video-cards"></div>
+    </section>
+  </main>
+<div id="prompt-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-card"><div class="modal-head"><h2 id="modal-title">Execution Prompts</h2><button id="close-modal" class="close">×</button></div><nav class="tabs"><button data-tab="script">Script & SSML</button><button data-tab="visuals">Visual Prompts</button><button data-tab="avatar">Avatar Cues</button><button data-tab="render">Render JSON</button></nav><div class="modal-body"><div class="modal-toolbar"><span class="edit-hint">Editable prompt · saves for this business</span><button class="button muted" id="copy-current">▣ Copy Current View</button></div><textarea id="modal-output" spellcheck="false" aria-label="Edit video prompt"></textarea></div></div></div>
+  <div id="toast" class="toast" role="status"></div>
+</body>
+</html>

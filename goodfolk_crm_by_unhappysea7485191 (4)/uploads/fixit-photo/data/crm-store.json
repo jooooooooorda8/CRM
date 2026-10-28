@@ -1,0 +1,450 @@
+{
+  "account": {
+    "account_name": "Goodfolk CRM",
+    "owner_name": "Dan B Clarks",
+    "role": "owner",
+    "user_id": "owner-default"
+  },
+  "businesses": [
+    {
+      "id": "northstar",
+      "name": "Northstar Coffee",
+      "industry": "Cafe & roastery",
+      "initial": "N",
+      "theme": "burgundy",
+      "headingFont": "DM Serif Display",
+      "bodyFont": "DM Sans",
+      "tone": "Warm, grounded, a little adventurous",
+      "audience": "Neighborhood coffee lovers",
+      "channels": [
+        "Instagram",
+        "Facebook",
+        "TikTok",
+        "LinkedIn"
+      ],
+      "description": "Small-batch specialty coffee for slow mornings and big ideas. Ethically sourced beans roasted in-house.",
+      "websiteUrl": "https://northstarcoffee.example.com",
+      "websiteInsights": {
+        "title": "Northstar Coffee Roasters",
+        "description": "Craft roasted single-origin coffees and mindful cafe experiences.",
+        "colors": [
+          "#5B0E14",
+          "#F1E194",
+          "#2C1810",
+          "#EFE9DE"
+        ],
+        "fonts": [
+          "DM Serif Display",
+          "DM Sans"
+        ],
+        "fetchedAt": "2026-10-08T14:06:42.235Z"
+      },
+      "businessProfile": {
+        "offer": "Specialty coffee beans, cold brew cans, espresso bar, artisan pastries",
+        "differentiator": "Direct trade relationships with smallholder farms, roasted fresh twice weekly",
+        "audience": "Coffee enthusiasts, remote workers, morning commuters",
+        "goal": "Store visits and bookings",
+        "callToAction": "Visit our roastery & cafe or order online",
+        "brandVoice": "Warm, grounded, a little adventurous",
+        "serviceArea": "Pacific Northwest & nationwide shipping",
+        "restrictions": "Never make unsubstantiated health claims about caffeine or energy",
+        "regulatoryNotes": "FDA food safety compliance on packaged goods",
+        "visualDirection": "Warm morning light, tactile ceramic cups, steam rising, rich crema, natural wood counters",
+        "channels": [
+          "Instagram",
+          "Facebook",
+          "TikTok",
+          "LinkedIn"
+        ]
+      },
+      "createdAt": "2026-10-08T14:06:42.235Z"
+    },
+    {
+      "id": "morrow",
+      "name": "Morrow House",
+      "industry": "Home & lifestyle",
+      "initial": "M",
+      "theme": "sage",
+      "headingFont": "Cormorant Garamond",
+      "bodyFont": "Manrope",
+      "tone": "Calm, considered, quietly optimistic",
+      "audience": "Design-minded home makers",
+      "channels": [
+        "Instagram",
+        "Facebook",
+        "TikTok",
+        "LinkedIn"
+      ],
+      "description": "Thoughtful home goods and linen textiles made to live with, not just look at.",
+      "websiteUrl": "https://morrowhouse.example.com",
+      "websiteInsights": {
+        "title": "Morrow House | Intentional Living",
+        "description": "Handmade ceramics, stonewashed Belgian linen, and quiet everyday objects.",
+        "colors": [
+          "#ACC8A2",
+          "#1A2517",
+          "#E8E2D8",
+          "#F5F1E9"
+        ],
+        "fonts": [
+          "Cormorant Garamond",
+          "Manrope"
+        ],
+        "fetchedAt": "2026-10-08T14:06:42.235Z"
+      },
+      "businessProfile": {
+        "offer": "Linen bedding, stoneware tableware, sculptural candles, brass hardware",
+        "differentiator": "Crafted in small European workshops using non-toxic natural dyes and materials",
+        "audience": "Modern homeowners, architects, slow-living enthusiasts",
+        "goal": "Sales and orders",
+        "callToAction": "Explore the new collection",
+        "brandVoice": "Calm, considered, quietly optimistic",
+        "serviceArea": "Global",
+        "restrictions": "Avoid loud promotional discounting or urgency language",
+        "regulatoryNotes": "",
+        "visualDirection": "Soft architectural daylight, linen textures, minimalist serene interiors, neutral earthy palettes",
+        "channels": [
+          "Instagram",
+          "Facebook",
+          "TikTok",
+          "LinkedIn"
+        ]
+      },
+      "createdAt": "2026-10-08T14:06:42.235Z"
+    },
+    {
+      "id": "fieldnotes",
+      "name": "Fieldnotes Studio",
+      "industry": "Creative services",
+      "initial": "F",
+      "theme": "sky",
+      "headingFont": "Space Grotesk",
+      "bodyFont": "DM Sans",
+      "tone": "Curious, clear, confidently human",
+      "audience": "Independent founders and teams",
+      "channels": [
+        "Instagram",
+        "LinkedIn",
+        "TikTok"
+      ],
+      "description": "Good ideas, made useful. Brand identity, design systems, and digital product strategy.",
+      "websiteUrl": "https://fieldnotes.example.com",
+      "websiteInsights": {
+        "title": "Fieldnotes Studio | Design & Brand Systems",
+        "description": "Strategic branding and interface craft for venture-backed and independent teams.",
+        "colors": [
+          "#2872A1",
+          "#CBDDE9",
+          "#1A202C",
+          "#F7FAFC"
+        ],
+        "fonts": [
+          "Space Grotesk",
+          "DM Sans"
+        ],
+        "fetchedAt": "2026-10-08T14:06:42.235Z"
+      },
+      "businessProfile": {
+        "offer": "Brand identity sprints, design systems, product UX/UI, creative direction",
+        "differentiator": "Senior practitioners embedded directly into product teams; no bloated agency layers",
+        "audience": "Tech founders, product leaders, marketing directors",
+        "goal": "Qualified leads",
+        "callToAction": "Schedule a partnership intro call",
+        "brandVoice": "Curious, clear, confidently human",
+        "serviceArea": "Worldwide remote",
+        "restrictions": "Do not promise overnight viral growth or unverified client revenue figures",
+        "regulatoryNotes": "",
+        "visualDirection": "Sharp editorial layouts, tactile physical print alongside digital screens, candid studio moments",
+        "channels": [
+          "Instagram",
+          "LinkedIn",
+          "TikTok"
+        ]
+      },
+      "createdAt": "2026-10-08T14:06:42.235Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-1",
+      "businessId": "northstar",
+      "platform": "Instagram",
+      "time": "09:15",
+      "status": "Ready for review",
+      "title": "A slower kind of morning",
+      "caption": "Make room for the first good thing. Our house blend is roasted in small batches, ready when you are. ☕\n\nFind your new morning ritual at Northstar.\n\n#NorthstarCoffee #SlowMorning #CoffeeRitual #SpecialtyCoffee",
+      "tone": "Sincere · sensory",
+      "art": "burgundy",
+      "headline": "MAKE ROOM\nFOR SLOW",
+      "sub": "A better morning starts here.",
+      "designFont": "DM Serif Display",
+      "designPalette": [
+        "#5B0E14",
+        "#F1E194"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=85",
+      "imageSource": {
+        "type": "curated",
+        "provider": "Unsplash Commercial",
+        "title": "Artisan Latte and Ceramic Cup",
+        "creator": "Coffee Culture Collective",
+        "license": "Commercial License (Free Unsplash)",
+        "licenseUrl": "https://unsplash.com/license"
+      },
+      "imageApproved": true,
+      "contentApproved": true,
+      "visualReview": {
+        "approved": true,
+        "score": 9,
+        "notes": "Natural lighting with authentic cafe atmosphere. Strong product presence without artificial staging.",
+        "revisionDirection": "Continue exploring hands-on pouring and roasting textures."
+      },
+      "copyReviewStatus": "engineer-reviewed",
+      "adjustments": {
+        "brightness": 102,
+        "contrast": 105,
+        "saturation": 108,
+        "warmth": 8,
+        "vignette": 15,
+        "aspectRatio": "1:1",
+        "movement": "editorial",
+        "overlayStyle": "classic"
+      },
+      "createdAt": "2026-10-08T14:06:42.235Z"
+    },
+    {
+      "id": "post-2",
+      "businessId": "morrow",
+      "platform": "Facebook",
+      "time": "11:30",
+      "status": "Ready for review",
+      "title": "A softer landing at home",
+      "caption": "A home is made in the little pauses. Bring a softer rhythm to your everyday with pieces made to live with, not just look at.\n\nExplore the Morrow House collection.\n\n#MorrowHouse #SlowLiving #ThoughtfulHome #InteriorDesign",
+      "tone": "Calm · welcoming",
+      "art": "sage",
+      "headline": "COME HOME\nTO CALM",
+      "sub": "Thoughtful pieces for everyday.",
+      "designFont": "Cormorant Garamond",
+      "designPalette": [
+        "#ACC8A2",
+        "#1A2517"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=85",
+      "imageSource": {
+        "type": "curated",
+        "provider": "Unsplash Commercial",
+        "title": "Minimalist Interior with Stonewashed Linens",
+        "creator": "Studio Scandinavian",
+        "license": "Commercial License (Free Unsplash)",
+        "licenseUrl": "https://unsplash.com/license"
+      },
+      "imageApproved": true,
+      "contentApproved": false,
+      "visualReview": {
+        "approved": true,
+        "score": 9,
+        "notes": "Gentle morning light across textural linen and clean ceramic lines. Matches brand ethos.",
+        "revisionDirection": "Add detail shots of artisan stitching and natural clay finishes."
+      },
+      "copyReviewStatus": "engineer-reviewed",
+      "adjustments": {
+        "brightness": 104,
+        "contrast": 98,
+        "saturation": 96,
+        "warmth": 4,
+        "vignette": 8,
+        "aspectRatio": "4:5",
+        "movement": "minimalist",
+        "overlayStyle": "quiet"
+      },
+      "createdAt": "2026-10-08T14:06:42.235Z"
+    },
+    {
+      "id": "post-3",
+      "businessId": "fieldnotes",
+      "platform": "TikTok",
+      "time": "14:00",
+      "status": "Needs review",
+      "title": "The idea behind the idea",
+      "caption": "The best work starts with a better question. We help independent teams turn the big messy thought into something people actually want to use.\n\nWhat are you working through this week?\n\n#FieldnotesStudio #CreativeProcess #DesignStrategy #FounderTips",
+      "tone": "Curious · direct",
+      "art": "sky",
+      "headline": "GOOD IDEAS\nGET MOVING",
+      "sub": "Clear thinking. Useful work.",
+      "designFont": "Space Grotesk",
+      "designPalette": [
+        "#2872A1",
+        "#CBDDE9"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=85",
+      "imageSource": {
+        "type": "curated",
+        "provider": "Unsplash Commercial",
+        "title": "Design Studio Workspace with Creative Blueprints",
+        "creator": "Modern Creative Lab",
+        "license": "Commercial License (Free Unsplash)",
+        "licenseUrl": "https://unsplash.com/license"
+      },
+      "imageApproved": false,
+      "contentApproved": true,
+      "visualReview": {
+        "approved": true,
+        "score": 8,
+        "notes": "Studio desktop workspace with dynamic typography potential. Ready for TikTok 9:16 layout.",
+        "revisionDirection": "Try candid close-ups of tactile wireframing sketches."
+      },
+      "copyReviewStatus": "engineer-reviewed",
+      "adjustments": {
+        "brightness": 100,
+        "contrast": 110,
+        "saturation": 105,
+        "warmth": -2,
+        "vignette": 20,
+        "aspectRatio": "9:16",
+        "movement": "brutalism",
+        "overlayStyle": "bold-badge"
+      },
+      "createdAt": "2026-10-08T14:06:42.235Z"
+    }
+  ],
+  "workflows": [
+    {
+      "id": "workflow-northstar",
+      "businessId": "northstar",
+      "name": "Northstar Coffee daily content",
+      "postsPerRun": 10,
+      "channels": [
+        "Instagram",
+        "Facebook",
+        "TikTok",
+        "LinkedIn"
+      ],
+      "instructions": "Create original, business-specific posts. Rotate concepts, imagery, and colors. Verify each photo and log retries for engineer review.",
+      "revision": 1,
+      "lastRunAt": "2026-10-08T14:06:42.235Z",
+      "engineerNote": "Quality checks active: visual relevance, platform guideline compliance, and non-hallucination fact checking."
+    },
+    {
+      "id": "workflow-morrow",
+      "businessId": "morrow",
+      "name": "Morrow House daily content",
+      "postsPerRun": 10,
+      "channels": [
+        "Instagram",
+        "Facebook",
+        "TikTok",
+        "LinkedIn"
+      ],
+      "instructions": "Create original, business-specific posts. Rotate concepts, imagery, and colors. Verify each photo and log retries for engineer review.",
+      "revision": 1,
+      "lastRunAt": "2026-10-08T14:06:42.235Z",
+      "engineerNote": "Quality checks active: visual relevance, platform guideline compliance, and non-hallucination fact checking."
+    },
+    {
+      "id": "workflow-fieldnotes",
+      "businessId": "fieldnotes",
+      "name": "Fieldnotes Studio daily content",
+      "postsPerRun": 10,
+      "channels": [
+        "Instagram",
+        "LinkedIn",
+        "TikTok"
+      ],
+      "instructions": "Create original, business-specific posts. Rotate concepts, imagery, and colors. Verify each photo and log retries for engineer review.",
+      "revision": 1,
+      "lastRunAt": "2026-10-08T14:06:42.235Z",
+      "engineerNote": "Quality checks active: visual relevance, platform guideline compliance, and non-hallucination fact checking."
+    }
+  ],
+  "botTasks": [
+    {
+      "id": "task-1",
+      "businessId": "northstar",
+      "botId": "editor",
+      "title": "Apply brand duotone & 4:5 feed crop to cafe batch",
+      "instructions": "Optimize all post photos for Instagram feed 4:5 aspect ratio. Add burgundy and gold color-matched overlays with DM Serif Display typography.",
+      "status": "complete",
+      "progress": 100,
+      "priority": "high",
+      "engineerNote": "Tested and verified across mobile aspect ratios.",
+      "createdAt": "2026-10-08T14:06:42.235Z",
+      "completedAt": "2026-10-08T14:06:42.235Z"
+    },
+    {
+      "id": "task-2",
+      "businessId": "northstar",
+      "botId": "scout",
+      "title": "Scout high-resolution commercial origin photography",
+      "instructions": "Find raw coffee bean textures, roasting drum details, and barista pour action shots with verified commercial licenses.",
+      "status": "complete",
+      "progress": 100,
+      "priority": "normal",
+      "engineerNote": "Verified 8 high-resolution candidates with CC0 and commercial rights.",
+      "createdAt": "2026-10-08T14:06:42.235Z"
+    },
+    {
+      "id": "task-3",
+      "businessId": "morrow",
+      "botId": "editor",
+      "title": "Fine-tune linen texture contrast & serene vignette",
+      "instructions": "Adjust visual editor parameters to keep natural light soft and highlights unclipped. Avoid harsh contrast on organic fibers.",
+      "status": "in_progress",
+      "progress": 75,
+      "priority": "normal",
+      "engineerNote": "Calibrating preset filters for Scandinavian minimalist aesthetic.",
+      "createdAt": "2026-10-08T14:06:42.235Z"
+    },
+    {
+      "id": "task-4",
+      "businessId": "fieldnotes",
+      "botId": "artist",
+      "title": "Develop brutalist typography overlay concepts",
+      "instructions": "Combine Space Grotesk headline tags with electric blue accents for TikTok and LinkedIn video thumbnails.",
+      "status": "queued",
+      "progress": 30,
+      "priority": "normal",
+      "engineerNote": "Waiting for preliminary copy review before locking typography bounds.",
+      "createdAt": "2026-10-08T14:06:42.235Z"
+    }
+  ],
+  "learning": [
+    {
+      "id": "learn-adj-1791468493723",
+      "bot_id": "editor",
+      "business_id": "northstar",
+      "kind": "photo_adjustment",
+      "note": "Adjusted post \"A slower kind of morning\": Visual Editor bot applied adjustments. (1:1, editorial)",
+      "source": "visual_editor_bot",
+      "created_at": "2026-10-08T14:08:13.723Z"
+    },
+    {
+      "id": "learn-adj-1791468447633",
+      "bot_id": "editor",
+      "business_id": "northstar",
+      "kind": "photo_adjustment",
+      "note": "Adjusted post \"A slower kind of morning\": Visual Editor bot applied adjustments. (1:1, editorial)",
+      "source": "visual_editor_bot",
+      "created_at": "2026-10-08T14:07:27.633Z"
+    },
+    {
+      "id": "learn-1",
+      "bot_id": "editor",
+      "business_id": "northstar",
+      "kind": "photo_adjustment",
+      "note": "Owner prefers deep burgundy shadows with warm parchment highlights and DM Serif Display titles for Northstar Coffee.",
+      "source": "owner_approval",
+      "created_at": "2026-10-08T14:06:42.235Z"
+    },
+    {
+      "id": "learn-2",
+      "bot_id": "artist",
+      "business_id": "morrow",
+      "kind": "approved_image",
+      "note": "Morrow House imagery should always lean into soft, indirect natural light and tactile textures rather than flashy staging.",
+      "source": "owner_approval",
+      "created_at": "2026-10-08T14:06:42.235Z"
+    }
+  ],
+  "chat": [],
+  "research": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Goodfolk CRM",
+  "description": "Multi-brand marketing CRM with an autonomous AI bot team for photo scouting, artwork adjustments, copy drafting, and workflow automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
